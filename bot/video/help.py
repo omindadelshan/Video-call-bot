@@ -24,7 +24,7 @@ from pyrogram.errors import MessageNotModified
 
 CHAT_ID = Config.CHAT_ID
 USERNAME = Config.BOT_USERNAME
-HOME_TEXT = "👋🏻 **Hello,[{}](tg://user?id={})**,\n\nI am a telegram **video streaming Bot**. \nI Can Stream Videos On Telegram Video  Chat. Made With ❤️ By @supunmabot 😉!"
+HOME_TEXT = "👋🏻 **Hello,[{}](tg://user?id={})**,\n\nI am a telegram **video streaming Bot**. \nI Can Stream Videos On Telegram Video  Chat. Made With ❤️ By @omindas 😉!"
 HELP_TEXT = """
 🏷️ --**Setting Up**-- :
 
@@ -58,12 +58,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
     if query.data=="help":
         buttons =  [
             [
-                InlineKeyboardButton("UPDATE CHANNEL 📢", url="https://t.me/sl_bot_zone"),
+                InlineKeyboardButton("UPDATE CHANNEL 📢", url="https://t.me/szbots"),
                 InlineKeyboardButton("SUPPORT GROUP 💬", url="https://t.me/slbotzone"),
             ],
             [
                 InlineKeyboardButton("MORE BOTS🤖", url="https://t.me/szbots/8"),
-                InlineKeyboardButton("SOURCE CODE📦", url="https://github.com/youtubeslgeekshow/Video-call-bot"),
+                InlineKeyboardButton("SOURCE CODE📦", url="https://github.com/omindadelshan/Video-call-bot"),
             ],
             [
                 InlineKeyboardButton("🔙 BACK HOME", callback_data="home"),
@@ -84,7 +84,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 InlineKeyboardButton("HOW TO USE ME ❓", callback_data="help"),
             ],
             [
-                InlineKeyboardButton("UPDATE CHANNEL 📢", url="https://t.me/sl_bot_zone"),
+                InlineKeyboardButton("UPDATE CHANNEL 📢", url="https://t.me/szbots"),
                 InlineKeyboardButton("SUPPORT GROUP 💬", url="https://t.me/slbotzone"),
             ],
             [
@@ -119,7 +119,7 @@ async def start(client, message):
                 InlineKeyboardButton("HOW TO USE ME ❓", callback_data="help"),
             ],
             [
-                InlineKeyboardButton("UPDATE CHANNEL 📢", url="https://t.me/sl_bot_zone"),
+                InlineKeyboardButton("UPDATE CHANNEL 📢", url="https://t.me/szbots"),
                 InlineKeyboardButton("SUPPORT GROUP 💬", url="https://t.me/slbotzone"),
             ],
             [
@@ -138,7 +138,7 @@ async def help(client, message):
     buttons = [
 
             [
-                InlineKeyboardButton("UPDATE CHANNEL 📢", url="https://t.me/sl_bot_zone"),
+                InlineKeyboardButton("UPDATE CHANNEL 📢", url="https://t.me/szbots"),
                 InlineKeyboardButton("SUPPORT GROUP 💬", url="https://t.me/slbotzone"),
             ],
             [
